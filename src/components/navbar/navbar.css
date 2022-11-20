@@ -1,5 +1,33 @@
-#Navbar{
+#Navbar {
   width: 100vw;
-  height: 240px;
+  height: 8rem;
   background-color: #FBF7EF;
+  user-select: none;
+}
+
+.btn_nav {
+  width: fit-content;
+  padding: 0.4rem 1rem;
+  margin: 0 0.2rem;
+  color: #B17F59;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 0.8rem;
+}
+
+.btn_nav:hover {
+  background-color: #B17F59;
+  color: white;
+}
+
+.Title {
+  height: calc(100% - 3rem);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #B17F59;
 }

@@ -3,7 +3,7 @@ import "./navbar.css"
 function name() {
   return (
     <nav id="Navbar">
-      Esto será el navbar
+      <div className="Title">Title Shop</div>
     </nav>
   )
 }
