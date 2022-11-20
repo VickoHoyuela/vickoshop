@@ -1,0 +1,12 @@
+.NavHeader {
+  height: 2rem;
+  background-color: #FBF7EF;
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: 500;
+  justify-content: end;
+  align-items: center;
+  position: sticky;
+  top: 0rem;
+}

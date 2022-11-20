@@ -1,0 +1,15 @@
+.Wrapper {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.content_products {
+  max-width: 85rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}

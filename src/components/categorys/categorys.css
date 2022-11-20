@@ -1,0 +1,25 @@
+.categorys {
+  height: 4rem;
+  background-color: #B17F59;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_categorys {
+  width: fit-content;
+  padding: 0.3rem 1.5rem;
+  margin: 0px 1rem;
+  color: #FBF7EF;
+  border-radius: 10px;
+  outline: 2px solid #FBF7EF;
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn_categorys:hover {
+  background-color: #FBF7EF;
+  color: #B17F59;
+}
